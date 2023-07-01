@@ -1,18 +1,11 @@
-//Comportamentos para o menu .
 
-function toggleChevronIcon(menuItem) {
-	const chevronIcon = menuItem.querySelector('iconify-icon');
-	if (chevronIcon) {
-		chevronIcon.classList.toggle('chevron-up');
-	}
-}
 
 //SWIPER
 
 var slide_plans = new Swiper('.slide-plans', {
 	// Default parameters
 	slidesPerView: 4,
-	spaceBetween: 30,
+	spaceBetween: 16,
 	pagination: {
 		el: '.swiper-pagination',
 		clickable: true,
@@ -46,7 +39,7 @@ var slide_plans = new Swiper('.slide-plans', {
 		},
 		1210: {
 			slidesPerView: 4,
-			spaceBetween: 30,
+			spaceBetween: 16,
 		},
 	},
 });
